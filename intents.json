@@ -1,0 +1,31 @@
+{"intents": [
+  {"tag": "greetings",
+    "patterns": ["hello","hey","hi","good day"],
+     "responses":["hi","hello"] },
+  {
+    "tag": "goodbye",
+    "patterns": ["bye", "see you later" , "goodbye", "i am leaving", "have a good day ", "bye", "see ya"],
+    "responses": ["sad to see you go :(","talk to you later, ","goodbye!"]
+  },
+  {
+    "tag": "name",
+    "patterns": ["what is your name", "what are you products?", "what do you recommend?"],
+    "responses": ["you can call me Zap!.", "I'm neural", "I'm Zap the assistant of Zedope!"]
+  },
+  {
+    "tag": "shop",
+    "patterns": ["I'd like to buy something", "what are your products?", "what do you recommend?", "what are you selling"],
+    "responses": ["zedope has 10 series of java book and lots of free content in youtube"]
+  },
+  {
+    "tag": "hours",
+    "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+    "responses": ["24/7"]
+  },
+  {
+    "tag": "stock",
+    "patterns": ["what stock do i own", "how are my shares", "what companies am i investing in?", "what am i doing"],
+    "responses": ["you own the following share: ABBV, AAPL, FB, NVIDIA and an ETF of the S&P 500 Index!"]
+  }
+]
+}
